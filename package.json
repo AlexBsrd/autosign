@@ -1,0 +1,18 @@
+{
+  "name": "appel",
+  "version": "1.0.0",
+  "description": "Emargement automatique",
+  "main": "appel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Broussard",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.4.16",
+    "puppeteer": "^5.4.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
