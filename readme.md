@@ -68,7 +68,7 @@ Et ajoutez par exemple la ligne suivante à la fin du fichier
 ```bash 
 30 08 20 11 * node ~/autosign/appel.js
 ```
-L'utilitaire `crontab` utilise la syntaxe `minutes heure jour mois année <commande>`, la ligne ci-dessus va donc lancer (chaque année mais on s'en fout) la commande `node ~/autosign/appel.js` le 20 Novembre à 8h30. 
+L'utilitaire `crontab` utilise la syntaxe `minutes heure jour mois jourdelasemaine <commande>`, la ligne ci-dessus va donc lancer (chaque année mais on s'en fout) la commande `node ~/autosign/appel.js` le 20 Novembre à 8h30. 
 
 
 #### :grey_question: Questions
